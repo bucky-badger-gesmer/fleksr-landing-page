@@ -46,7 +46,7 @@ export default function HowItWorks() {
             Rent a gym or list your membership
           </p>
           <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-            Whether you're looking to access a gym or earn from your membership, fleksr makes it simple.
+            Whether you&apos;re looking to access a gym or earn from your membership, fleksr makes it simple.
           </p>
         </div>
 

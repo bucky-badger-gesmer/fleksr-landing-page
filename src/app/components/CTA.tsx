@@ -8,7 +8,7 @@ export default function CTA() {
           </h2>
           <p className="mt-4 text-lg leading-6 text-indigo-200">
             Join fleksr today to rent high-end gym access with no subscriptions, or list your membership and start
-            earning. It's fitness freedom, your way.
+            earning. It&apos;s fitness freedom, your way.
           </p>
           <a
             href="#"

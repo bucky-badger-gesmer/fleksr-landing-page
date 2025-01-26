@@ -1,5 +1,3 @@
-import Image from "next/image"
-
 const testimonials = [
   {
     name: "Sarah Johnson",
@@ -44,20 +42,13 @@ export default function Testimonials() {
                   <div className="px-4 py-5 sm:p-6">
                     <div className="flex items-center">
                       <div className="flex-shrink-0">
-                        {/* <Image
-                          className="h-12 w-12 rounded-full"
-                          src={testimonial.image || "/placeholder.svg"}
-                          alt={testimonial.name}
-                          width={48}
-                          height={48}
-                        /> */}
                       </div>
                       <div className="ml-4">
                         <div className="text-lg font-medium text-gray-900">{testimonial.name}</div>
                         <div className="text-sm text-gray-500">{testimonial.role}</div>
                       </div>
                     </div>
-                    <div className="mt-4 text-gray-500">"{testimonial.quote}"</div>
+                    <div className="mt-4 text-gray-500">&quot;{testimonial.quote}&quot;</div>
                   </div>
                 </div>
               ))}
